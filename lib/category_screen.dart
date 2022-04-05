@@ -9,7 +9,7 @@ class CategoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Meals App'),
+        title: Text('Meals Application'),
       ),
       body: GridView(
         children: dummyCategories
